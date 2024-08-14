@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift Quiz</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="f.ico">
+</head>
+<body>
+
+    <main>
+        <div class="container">
+
+
+            <div class="image-column" id="left-images">
+                <img src="debut.jpg" alt="Imagem 1">
+                <img src="fearless.jpg" alt="Imagem 2">
+                <img src="speak now.jpg" alt="Imagem 3">
+                <img src="Red.jpg" alt="Imagem 4">
+                <img src="1989.jpg" alt="Imagem 5">
+            </div>
+
+            <div class="game">
+                    <h1>Taylor Swift Quiz</h1>
+                <p>Adivinhe a música da Taylor pela letra <br>(50 músicas)</p>
+                <div id="question"></div>
+                <div class="options">
+                    <button class="option" onclick="checkAnswer(this)">Opção 1</button>
+                    <button class="option" onclick="checkAnswer(this)">Opção 2</button>
+                    <button class="option" onclick="checkAnswer(this)">Opção 3</button>
+                </div>
+            </div>
+
+
+            <div class="image-column" id="right-images">
+                <img src="Reputation.jpg" alt="Imagem 6">
+                <img src="lover.jpg" alt="Imagem 7">
+                <img src="folklore.jpg" alt="Imagem 8">
+                <img src="evermore.jpg" alt="Imagem 9">
+                <img src="midnight.jpg" alt="Imagem 10">
+            </div>
+
+        
+        </div>
+    </main>
+
+     <audio autoplay loop controls id="background-music" src="_Enchanted_ - Orchestral Cover by Joseph William Morgan (Official Video).mp3" >
+                </audio>
+
+    <script src="controller.js"></script>
+</body>
+</html>
